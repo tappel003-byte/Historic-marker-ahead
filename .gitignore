@@ -1,0 +1,51 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+xcuserdata/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.playground
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+
+# CocoaPods / Carthage (not used; ignore if created)
+Pods/
+Carthage/Build/
+
+# Secrets & signing
+*.p12
+*.cer
+*.mobileprovision
+*.provisionprofile
+AuthKey_*.p8
+.env
+.env.*
+secrets/
+credentials/
+
+# IDE
+.idea/
+*.swp
+*~
+
+# Python import tooling (local venv)
+.venv/
+__pycache__/
+*.pyc
+
+# Misc
+*.log
+.vscode/

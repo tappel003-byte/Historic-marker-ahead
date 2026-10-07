@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Historic Marker Ahead">
+  <metadata>
+    <name>Sample approach near Albuquerque (course east)</name>
+    <desc>
+      Synthetic GPX for Xcode Simulate Location. Approximates eastbound travel
+      toward coordinates near central Albuquerque. Pair with Debug view.
+      Prefer choosing a real geocoded marker from
+      data/processed/nm-official-scenic-markers-geocoded.json for field tests.
+    </desc>
+  </metadata>
+  <trk>
+    <name>Eastbound sample</name>
+    <trkseg>
+      <trkpt lat="35.08440" lon="-106.65500"><ele>1500</ele><time>2026-10-07T12:00:00Z</time></trkpt>
+      <trkpt lat="35.08440" lon="-106.65350"><ele>1500</ele><time>2026-10-07T12:00:10Z</time></trkpt>
+      <trkpt lat="35.08440" lon="-106.65200"><ele>1500</ele><time>2026-10-07T12:00:20Z</time></trkpt>
+      <trkpt lat="35.08440" lon="-106.65050"><ele>1500</ele><time>2026-10-07T12:00:30Z</time></trkpt>
+      <trkpt lat="35.08440" lon="-106.64900"><ele>1500</ele><time>2026-10-07T12:00:40Z</time></trkpt>
+      <trkpt lat="35.08440" lon="-106.64750"><ele>1500</ele><time>2026-10-07T12:00:50Z</time></trkpt>
+    </trkseg>
+  </trk>
+</gpx>
