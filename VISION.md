@@ -254,6 +254,12 @@ Separate UI, location/trigger logic, historical data, persistence, and narration
 
 ---
 
+## Version direction (non-authorizing)
+
+Conversational labels **V1 / V2 / V3** mean roughly: V1 = prove Just Drive with real markers; V2 = smarter on-road judgment and quieter/better companion behavior from real use; V3 = planned-drive / richer historical context. These labels do not authorize implementation. Only `MILESTONE.md` does.
+
+---
+
 ## Success moment
 
 The first drive where this happens is the important moment:
