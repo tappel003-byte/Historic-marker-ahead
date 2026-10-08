@@ -1,5 +1,7 @@
 # MILESTONE.md — Currently authorized work
 
+**Note:** “V1” in conversation refers to this Just Drive proof-of-concept direction. There is no “D1” milestone.
+
 ## Milestone 1 — Just Drive proof of concept
 
 **Question this milestone must answer:**
@@ -36,6 +38,8 @@ This must be testable on Tim’s physical iPhone. It is not a mock-UI exercise.
 - Android / web / PWA
 - Giant preference questionnaire
 - Full conversational voice assistant
+- V2 / V3 directional ideas (richer road judgment, planned-drive storytelling, etc.) — remain vision only until a future milestone authorizes them
+- Choosing or implementing a distribution path (TestFlight vs direct install), Apple Developer enrollment steps, cloud Mac CI, or install walkthroughs — process/ops, not Milestone 1 product scope, until Tim decides and explicitly asks
 
 These ideas remain valid in `VISION.md`; they are simply not authorized now.
 

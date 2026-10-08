@@ -99,3 +99,24 @@ Record product/architecture decisions that constrain future work. Not an activit
 
 **Decision:** Trigger candidates using distance + bearing-vs-course angular window + movement confidence; not radius-only proximity. Defaults documented in `docs/ahead-detection.md`.  
 **Rationale:** Distinguishes ahead from nearby/behind.
+
+## D019 — Audience for early use
+
+**Decision:** Historic Marker Ahead is for Tim’s personal use initially, with family (and later friends) as possible testers/users. It is not currently a public App Store commercial launch.  
+**Date:** 2026-10-08  
+**Authorized by:** Tim  
+**Rationale:** Clarifies D006 for distribution pressure — private use reduces urgency of public listing, marketing, and broad support, without removing Apple signing/build requirements for native iOS.
+
+## D020 — Version labels (no “D1” stage)
+
+**Decision:** There is no separate product stage called “D1.” The label “D1” in earlier chat was autocorrect for **V1**. Directional version language is **V1 / V2 / V3** only. V2 and V3 describe long-term direction (see `VISION.md` and Project brainstorm archive); they do not authorize work until reflected in `MILESTONE.md`.  
+**Date:** 2026-10-08  
+**Authorized by:** Tim  
+**Rationale:** Prevents agents from inventing a D1 milestone or treating reconstructed V2/V3 brainstorm lists as current scope.
+
+## D021 — iPhone distribution path not decided
+
+**Decision:** How Tim installs the app on a physical iPhone is **not decided**. Candidates discussed include TestFlight and Ad Hoc / direct signed install to registered devices. Tim is willing to enroll in the Apple Developer Program (~$99/year US individual) as the signing prerequisite; enrollment completion is not assumed by this decision. Cloud Mac build vs owning a Mac is also open. Public App Store listing is not required for early personal/family use.  
+**Date:** 2026-10-08  
+**Authorized by:** Tim  
+**Rationale:** Keep agents from treating Cursor’s TestFlight suggestion, Project install walkthroughs, or session notes as a locked product decision. No distribution/signing automation should be implemented until Tim chooses and asks.

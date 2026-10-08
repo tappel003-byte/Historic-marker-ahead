@@ -23,6 +23,13 @@ Authority hierarchy:
 15. **Never claim unsupported iOS behavior works.** Document limitations honestly.
 16. **Preserve:** *Quiet most of the time. Interesting when it speaks.*
 
+## Authority and external context
+
+17. **Tim is the sole decision-maker.** Suggestions from Cursor, ChatGPT, or anyone else are not approvals.
+18. **External archives are not authorization.** Project brainstorm docs, ChatGPT reconstructions, and session notes are informational only. They do not authorize code, PRs, milestones, or distribution choices unless Tim copies a decision into these governing docs or gives an explicit instruction.
+19. **No repo or app changes without Tim saying so.** Do not open PRs, edit code/config, enroll services, or “just fix” distribution/signing unless Tim explicitly asks in this conversation (or an equivalent direct instruction).
+20. **Version labels ≠ milestones.** Product direction may be discussed as V1 / V2 / V3. Only `MILESTONE.md` authorizes implementation. There is no separate “D1” stage (see `DECISIONS.md`).
+
 ## Repository boundaries
 
 - Work in the existing public repo: `https://github.com/tappel003-byte/Historic-marker-ahead`
@@ -35,3 +42,4 @@ Authority hierarchy:
 - Keep deterministic geometry, trigger, and persistence logic testable without a drive.
 - Prefer on-device processing and local persistence for V1.
 - Separate UI, location/trigger logic, historical data, persistence, and narration/audio.
+- Milestone 1 implements the V1 “Just Drive” proof; later V2/V3 ideas stay in `VISION.md` until a new milestone authorizes them.
